@@ -10,6 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ChatUp"
         android:usesCleartextTraffic="true">
+        <activity android:name=".SteupProfileActivity"></activity>
         <activity
             android:name=".OTPActivity"
             android:windowSoftInputMode="stateAlwaysVisible" />

@@ -84,9 +84,9 @@ public class OTPActivity extends AppCompatActivity {
 
                         if (task.isSuccessful())
                         {
-/*                            Intent intent = new Intent(OTPActivity.this);
+                            Intent intent = new Intent(OTPActivity.this, SteupProfileActivity.class);
                             startActivity(intent);
-                            finishAffinity();*/
+                            finishAffinity();
                         }else {
                             Toast.makeText(OTPActivity.this,"Failed.", Toast.LENGTH_SHORT).show();
                         }

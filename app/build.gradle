@@ -58,6 +58,7 @@ dependencies {
 
     //for storage
     implementation 'com.google.firebase:firebase-storage'
+
     //making image in circle shape
     implementation 'de.hdodenhof:circleimageview:3.1.0'
 
